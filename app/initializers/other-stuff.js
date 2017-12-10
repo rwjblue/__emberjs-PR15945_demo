@@ -1,5 +1,5 @@
 export function initialize(/* application */) {
-  // application.inject('route', 'foo', 'service:foo');
+  self.bar = true;
 }
 
 export default {
